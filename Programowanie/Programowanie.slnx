@@ -3,5 +3,9 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
+  <Folder Name="/01.Basics/" />
+  <Folder Name="/02.Variable/">
+    <Project Path="VariableConsoleApplication.cpp/VariableConsoleApplication.cpp.vcxproj" Id="c3a289f3-301c-452e-a17b-4cc6731dd4a7" />
+  </Folder>
   <Project Path="ConsoleApplication/ConsoleApplication.vcxproj" Id="0ff01820-1afe-4354-b01c-66f5f88c58b0" />
 </Solution>

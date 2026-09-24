@@ -7,6 +7,14 @@ int main()
 {
     std::cout << "Hello World!\n"; //stałą łańcuchową
     std::cout << "Mikołaj Włodarski\n"; //stałą łańcuchową
+    std::cout << 'X';  //stała znakowa
+    std::cout << '\n';
+    std::cout << 82; //stała całkowitoliczbowa
+    std::cout << '\n';
+    std::cout << -52.5; //stała rzeczywista
+    std::cout << '\n';
+
+    std::cout << "Pierwsza dana " << 254 << " kolejny tekst";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
