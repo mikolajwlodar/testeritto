@@ -1,2 +1,3 @@
 ﻿  ConsoleApplication.cpp
-  ConsoleApplication.vcxproj -> C:\Users\Uczen\Desktop\MW1C\testeritto\Programowanie\x64\Debug\ConsoleApplication.exe
+  LINK : C:\Users\Uczen\Desktop\testeritto\Programowanie\x64\Debug\ConsoleApplication.exe not found or not built by the last incremental link; performing full link
+  ConsoleApplication.vcxproj -> C:\Users\Uczen\Desktop\testeritto\Programowanie\x64\Debug\ConsoleApplication.exe
