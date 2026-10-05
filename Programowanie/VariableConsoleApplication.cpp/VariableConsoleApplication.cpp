@@ -131,11 +131,43 @@ void task5()
 	std::cout << "Koszt wykladziny: " << cost << " zl\n";
 }
 
+//* Podlewanie trawnika
+//Zraszacz podlewa obszar w kształcie koła.Wczytaj jego zasięg w metrach, czyli odległość od zraszacza do najdalszego podlewanego punktu.
+// Oblicz powierzchnię podlewanego trawnika.
+void task6()
+{
+	int radius;
+	std::cout << "Podaj zasięg zraszacza:\n";
+	std::cin >> radius;
+	
+	int area;
+	area = radius * radius * 3.14;
+
+	std::cout << "Powierzchnia: " << area << "m2\n";
+}
+
+//* Koszt podróży samochodem
+//Wczytaj długość trasy w kilometrach, średnie spalanie samochodu w litrach na 100 km oraz cenę litra paliwa.
+// Oblicz ilość paliwa potrzebną do przejechania trasy oraz koszt tego paliwa.
+void task7()
+{
+	int distance, consumption, pricePerLiter;
+	std::cout << "Podaj dystans:\n";
+	std::cin >> distance;
+	std::cout << "Podaj średnie spalanie paliwa:\n";
+	std::cin >> consumption;
+	std::cout << "Podaj cene za litr paliwa:\n";
+	std::cin >> pricePerLiter;
+
+	int 
+
+}
+
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
 
-	task2();
+	task6();
 }
 
 /*
