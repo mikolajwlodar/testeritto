@@ -139,7 +139,7 @@ void task6()
 	int radius;
 	std::cout << "Podaj zasięg zraszacza:\n";
 	std::cin >> radius;
-	
+
 	int area;
 	area = radius * radius * 3.14;
 
@@ -151,15 +151,35 @@ void task6()
 // Oblicz ilość paliwa potrzebną do przejechania trasy oraz koszt tego paliwa.
 void task7()
 {
-	int distance, consumption, pricePerLiter;
+	int distance, averageFuelUsed, pricePerLiter;
 	std::cout << "Podaj dystans:\n";
 	std::cin >> distance;
 	std::cout << "Podaj średnie spalanie paliwa:\n";
-	std::cin >> consumption;
+	std::cin >> averageFuelUsed;
 	std::cout << "Podaj cene za litr paliwa:\n";
 	std::cin >> pricePerLiter;
 
-	int 
+	float fuelNeeded;
+	fuelNeeded = distance * averageFuelUsed / 100.0;
+
+	float costOfAdventure;
+	costOfAdventure = fuelNeeded * pricePerLiter;
+
+	std::cout << "Ilość potrzebnego paliwa wynosi: " << fuelNeeded << "L\n";
+	std::cout << "Cena za podróż: " << costOfAdventure << "zl\n";
+}
+
+//* Zakup z rabatem
+//Wczytaj cenę towaru przed obniżką oraz wysokość rabatu w procentach.
+// Oblicz cenę po obniżce oraz zaoszczędzoną kwotę.
+void task8()
+{
+	int priceBeforeDiscount, discountAmmountInPrecents;
+	std::cout << "Podaj cene przed obniżką:\n";
+	std::cin >> priceBeforeDiscount;
+	std::cout << "Podaj cene obniżki przed:\n";
+	std::cin >> discountAmmountInPrecents;
+
 
 }
 
@@ -167,7 +187,7 @@ int main()
 {
 	setlocale(LC_CTYPE, "polish");
 
-	task6();
+	task7();
 }
 
 /*

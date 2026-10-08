@@ -1,4 +1,5 @@
 ﻿  VariableConsoleApplication.cpp
 C:\Users\Uczen\Desktop\testeritto\Programowanie\VariableConsoleApplication.cpp\VariableConsoleApplication.cpp(65,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Uczen\Desktop\testeritto\Programowanie\VariableConsoleApplication.cpp\VariableConsoleApplication.cpp(144,27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Uczen\Desktop\testeritto\Programowanie\VariableConsoleApplication.cpp\VariableConsoleApplication.cpp(144,25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Uczen\Desktop\testeritto\Programowanie\VariableConsoleApplication.cpp\VariableConsoleApplication.cpp(163,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   VariableConsoleApplication.cpp.vcxproj -> C:\Users\Uczen\Desktop\testeritto\Programowanie\x64\Debug\VariableConsoleApplication.exe
