@@ -177,24 +177,50 @@ void task8()
 	int priceBeforeDiscount, discountAmmountInPrecents;
 	std::cout << "Podaj cene przed obniżką:\n";
 	std::cin >> priceBeforeDiscount;
-	std::cout << "Podaj cene obniżki przed:\n";
+	std::cout << "Podaj rabat w procentach:\n";
 	std::cin >> discountAmmountInPrecents;
 
 	float savedMoney;
 	savedMoney = discountAmmountInPrecents / 100.0 * priceBeforeDiscount;
 
 	float priceAfterDiscount;
-	priceAfterDiscount = priceBeforeDiscount * savedMoney;
+	priceAfterDiscount = priceBeforeDiscount - savedMoney;
 
 	std::cout << "Ilość zaoszczędzonej kwoty wynosi: " << savedMoney << "zl\n";
 	std::cout << "Cena po obniżce wynosi: " << priceAfterDiscount << "zl\n";
 }
 
+//* Koszt zużycia energii Wczytaj moc urządzenia w watach, czas jego pracy w godzinach
+// oraz cenę jednej kilowatogodziny energii elektrycznej.Oblicz zużycie energii w 
+// kilowatogodzinach oraz koszt pracy urządzenia.Przyjmij, że urządzenie przez cały ten czas pracuje z podaną mocą.
+void task9()
+{
+	int powerInWatts, timeInHours, pricePerKWh;
+	std::cout << "Podaj moc urządzenia w watach:\n";
+	std::cin >> powerInWatts;
+	std::cout << "Podaj czas pracy w godzinach:\n";
+	std::cin >> timeInHours;
+	std::cout << "Podaj cene za 1 kWh:\n";
+	std::cin >> pricePerKWh;
+
+	float powerUsage;
+	powerUsage = powerInWatts / 1000.0 * timeInHours;
+
+	float totalCost;
+	totalCost = powerUsage * pricePerKWh;
+
+	std::cout << "Zużycie energii wynosi: " << powerUsage << "kWh\n";
+	std::cout << "Koszt calkowity wynosi: " << totalCost << "zl\n";
+
+
+}
+
+
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
 
-	task8();
+	task9();
 }
 
 /*
