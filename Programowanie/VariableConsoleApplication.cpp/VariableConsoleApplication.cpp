@@ -180,14 +180,21 @@ void task8()
 	std::cout << "Podaj cene obniżki przed:\n";
 	std::cin >> discountAmmountInPrecents;
 
+	float savedMoney;
+	savedMoney = discountAmmountInPrecents / 100.0 * priceBeforeDiscount;
 
+	float priceAfterDiscount;
+	priceAfterDiscount = priceBeforeDiscount * savedMoney;
+
+	std::cout << "Ilość zaoszczędzonej kwoty wynosi: " << savedMoney << "zl\n";
+	std::cout << "Cena po obniżce wynosi: " << priceAfterDiscount << "zl\n";
 }
 
 int main()
 {
 	setlocale(LC_CTYPE, "polish");
 
-	task7();
+	task8();
 }
 
 /*
