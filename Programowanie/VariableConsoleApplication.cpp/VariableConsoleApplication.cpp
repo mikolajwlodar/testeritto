@@ -211,9 +211,17 @@ void task9()
 
 	std::cout << "Zużycie energii wynosi: " << powerUsage << "kWh\n";
 	std::cout << "Koszt calkowity wynosi: " << totalCost << "zl\n";
-
+}
+//* Rachunek za zakupy
+//Klient kupuje trzy rodzaje produktów.Dla każdego rodzaju wczytaj cenę jednej sztuki oraz liczbę kupowanych sztuk.
+// Oblicz koszt zakupu każdego rodzaju produktu oraz łączną kwotę do zapłaty.
+void task10()
+{
+	int firstPrice, secoundPrice, thirdPrice;
+	std::cout << "Podaj cene pierwszego produktu"
 
 }
+
 
 
 int main()
