@@ -218,7 +218,14 @@ void task9()
 void task10()
 {
 	int firstPrice, secoundPrice, thirdPrice;
-	std::cout << "Podaj cene pierwszego produktu"
+	std::cout << "Podaj cene pierwszego produktu:\n";
+	std::cin >> firstPrice;
+	std::cout << "Podaj cene drugiego produktu:\n";
+	std::cin >> secoundPrice;
+	std::cout << "Podaj cene trzeciego produktu:\n";
+	std::cin >> thirdPrice;
+
+	float 
 
 }
 
